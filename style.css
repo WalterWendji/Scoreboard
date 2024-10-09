@@ -1,0 +1,110 @@
+body {
+
+    height: 100vh;
+    position: relative;
+    padding: 8px 16px;
+    background-color: #E5E5E5;
+}
+
+.board {
+    position: absolute;
+    background-color: #1B244A;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* min-width: 63.88%;
+    max-width: 39.93rem; */
+    width: 39.93rem; 
+    height: 24.0625rem;
+    /* min-height: 38.50%;
+    max-height: 24.0625rem; */
+    margin: 8px 16px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.containerInf {
+    position: relative;
+    width: 410px;
+    margin: 0 auto;
+    display: flex;
+    height: 249px;
+    justify-content: space-between;
+    
+    
+}
+
+#counter {
+    position: absolute;
+    bottom: 98%;
+    left: 40%;
+    width: 77px;
+    height: 60px;
+    font-size: 45px;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #EEEEEE;
+    margin: 0;
+}
+
+.Scorenumber {
+    display: flex;
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+    color: #F94F6D;
+    justify-content: space-around;
+    align-items: center;
+    font-family: cursed Timer ULiL;
+    font-size: 90px;
+    border-radius: 5px;
+}
+
+.Scorenumber span {
+    margin: auto;
+    height: 81px;
+}
+
+.frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.btn-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+button {
+    width: 45px;
+    height: 45px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    font-family: cursed Timer ULiL;
+    color: #9AABD8;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.resetBox {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+}
+
+#resetBtn {
+    width: fit-content;
+    position: relative;
+    
+}
